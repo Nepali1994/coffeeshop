@@ -1,0 +1,715 @@
+@charset "utf-8";
+@import url(Clientfont.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .......sec-1...... */
+.Section-1{
+    background-image: url(../images/BG-11-1_11zon.png);
+    height: 100vh;
+}
+.nav-menu{
+    list-style-type: none;
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-menu li{
+    margin: 10px 10px 0px 10px;
+}
+.nav-menu li a
+{
+    text-decoration: none;
+    text-transform:uppercase;
+}
+.list-icon .bi
+{
+    font-size: 38px;
+}
+.sec1-header
+{
+    background-color: white;
+    margin: 0px 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+}
+.sec1-b{
+    margin-top: 10px;
+    display: none;
+}
+.buttons{
+    line-height: 60px;
+}
+.button1, .button2{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #b98d58;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #b98d58;
+}
+.button1, .button2:hover{
+    background-color: white;
+    color: #b98d58;
+}
+.button3{
+    color: #b98d58;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: white;
+}
+.button3:hover{
+    background-color: #b98d58;
+    color: white;
+}
+.sec2{
+    margin: 110px 0px 0px 25px;
+    }
+.sec2 h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+.sec2 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+/* .......sec-1 end...... */
+/* ........sec-2............. */
+.coffee-icon{
+    color:#b98d58;
+    background-color: white;  
+}
+.lineheight{
+    color:gray
+}
+.coffee-icon:hover{
+background-color:#b98d58;
+color:white;
+}
+.Section-2{
+    height: 100%;
+    line-height: 30px;
+}
+.Section-2 .coffee-icon{
+    background-color: #b98d5826;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.marginn{
+    padding-top: 30px;
+    line-height: 40px;
+}
+.margin-top{
+    margin-top: 30px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+.about-wrapper{
+padding-left: 20px;
+padding-bottom: 50px;
+}
+.marginn1{
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(136, 134, 130);
+}
+.learn-btn{
+    color: rgb(185, 141, 88);   
+}
+/* .......sec-2 end...... */
+/* .............sec-3......... */
+.Section-3{
+    background-image: url(../images/BG-12.png);
+    background-position: center;
+}
+.about2-sec{
+    margin: 0 25px;
+    padding: 50px 0px;
+}
+.Section-3 img{
+    width: 100%;
+}
+.cir-icon{
+    color: #b98d58;
+    padding: 1px;
+    border-radius: 50%;
+    background-color:rgb(242, 235, 227);
+}
+.marginn2{
+    color: rgb(136, 134, 130);
+    padding-top: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+/* ..............Sec-3.end............. */
+/* ....................sec-4.................. */
+.Section-4{
+    margin: 0 25px;
+    padding: 50px 0px;
+}
+.center{
+    text-align: center;
+}
+.Section-4 .or-span{
+    color: rgb(185, 141, 88);
+    font-size: 18px;  
+}
+.Section-4 h2{
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 30px
+    }
+.Section-4 img{
+    padding-top: 30px;
+}
+.coffierecipe{
+    color: rgb(52, 51, 51);
+}
+.coffierecipe:hover{
+    color:#b98d58;
+}
+.coffee-pro{
+    text-align: center;
+}
+.about-pro{
+    color: rgb(52, 51, 51);
+    padding-top: 25px;
+    margin-top: 0px !important;
+    border-top: 1px solid #E7E5EA;
+}
+.mt-50{
+    margin-top: 30px;
+    text-align: center;
+}
+.butt{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #b98d58;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: #b98d58;
+}
+.butt:hover{
+    color: #b98d58;
+    background-color: white;
+}
+/* ...............sec-4 end............ */
+/* .............sec-5............. */
+.Section-5{
+    background-image: url(../images/BG-9.png);
+    height: 100%;
+}
+.main-4 h2{
+    display: none;
+}
+.main-4{
+    color: rgb(52, 51, 51);
+    padding-left: 20px;
+}
+.coffieofferheading{
+    color: rgb(52, 51, 51);
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;  
+}
+.d1 h2, .d2 h2, .d3 h2, .d4 h2{
+    display: none;
+    color: #b98d58;
+}
+.d11 h1, .d12 h1, .d13 h1, .d14 h1{
+    padding-bottom: 20px;
+}
+p{
+    margin-bottom: 30px;
+}
+.mt-50{
+    height: 50px;
+}
+/* .....sec6.... */
+.butt{
+    border-radius: 10px;   
+}
+.sec6heading{
+   font-size: 25px;
+   text-align: center;
+   letter-spacing: 1px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+.sec-6 p{
+font-size: 20px;
+color: rgb(111, 111, 111);
+text-align: center;
+}
+.linkreadmore{
+    color: darkgrey;
+}
+.linkreadmore:hover{
+    color: #b98d58;
+}
+.news{
+   background-color:rgb(237, 235, 233);
+   padding-bottom: 30px;
+   width: 250px;
+margin-bottom: 50px; 
+margin-left: 60px;
+}
+.img-1, .img-2, .img-3{
+    width: 250px;
+}
+.imgpara{
+    font-size: 40px;
+   color: black;
+    letter-spacing: 1px;
+    width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    line-height: 30px;
+}
+.imgpara:hover{
+    color: #b98d58;
+}
+.newsheading{
+    text-align: center;
+    color: darkgrey;
+}
+.news a{
+    padding-left: 25px;
+}
+/* .....sec6 end.... */
+/* ...........sec-7...footer................... */
+.sec-7{
+    margin-top: 30px;
+    background-color: #000000;
+    height:100%;
+}
+.kafe{
+    padding-bottom: 50px;
+}
+.sec-7 h1{
+    color: white;
+}
+.link-item{
+    size: 30px;
+   float: left;
+    color: #b98d58;
+}
+.footerelements{
+    padding:50px 0px 10px 20px;
+    text-align: left;
+}
+.topfacebook, .toptweeter, .topinsta{
+    color:#b98d58;    
+}
+li a{
+    text-decoration: none;
+}
+.Contact p{
+    color:lightgrey;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.Contact h3{
+    color: #b98d58;
+    text-decoration: none;
+}
+.Company, .Services, .Contact{
+  margin-bottom: 20px;
+  line-height: 40px;
+  text-align: left;    
+}
+hr{
+    color: darkgrey;
+}
+.list-icons{
+    display: flex;
+}
+.footer h1{
+    color: white;
+    font-size: 30px;
+}
+.footer a{
+    color:#b98d58
+}
+.fpara{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px
+}
+.footerlinks{
+    text-decoration: none;  
+}
+.footerlinks a{
+    color: #b98d58;
+    padding:30px 0px 0px 5px ;
+}
+/* '''''''''''footer end........... */
+@media (min-width:768px)
+{
+    /* ......sec1..... */
+.Section-1{
+    height: 500px;
+}
+    .buttons
+    {
+        display: flex;    
+    }
+    .button3
+    {
+       margin-left: 15px;
+    }
+    .button1
+    {
+        color: white;
+        background-color: #b98d58;
+    }
+    .button1:hover
+    {
+        color: #b98d58;
+        background-color: white;
+    }
+/* .....sec2..... */
+.margin-top
+{
+    display: flex;
+    letter-spacing: 1px;
+}
+.fortab{
+   padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .....sec2..... */
+/* .....sec3.... */
+.dflex
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding-right: 50px;
+}
+.marginn2
+{
+    margin-right: 50px;
+}
+/* ....sec3 end...... */
+/* ....sec4.... */
+.fortab2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mt-50{
+   margin-bottom: 30px;
+}
+/* ......sec4 end.... */
+/* .....sec5...... */
+.d1 h2, .d2 h2, .d3 h2, .d4 h2
+{
+    display: contents;
+}
+.qwer
+{
+    display: flex;
+}
+.fortabflex
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-4 h2
+{
+    color: #b98d58;
+}
+.main-4 h2{
+    display: contents;
+}
+/* .......sec5 end...... */
+/* .....sec6..... */
+.fortab3
+{
+    display: flex;
+    justify-content: space-between;
+   padding-right: 70px;
+   padding-left: 0px;
+}
+.backcolor
+{
+    padding-left: 40px;
+}
+
+/* ......sec6 end.... */
+/* ....sec7...... */
+
+.footerelements
+{
+    letter-spacing: 1px;
+}
+.footer-div-1
+{
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.fortab4
+{
+    display: flex;
+    justify-content: space-evenly;   
+}
+.Services
+{
+    padding-left: 30px;
+    padding-right: 200px;
+}
+.sec-7{
+    height: 800px;
+}
+.sec-7 h1{
+    padding-bottom: 30px;
+}
+.Company
+{
+    padding-right: 30px;
+}
+
+/* .....sec end..... */
+}
+
+@media (min-width:1280px){
+    
+.Section-1
+{
+    height: 100vh;
+}
+/*
+    .rewidth
+    {
+       margin-left: 200x;
+    }
+*/
+   /* .......sec-1............ */
+    .sec1-b{
+        display: block;
+       
+    }
+    .button1{
+        border-radius: 10px;
+    }
+    .nav-menu{
+        display: flex;
+    }
+    .just-icon{
+        display: none;
+    }
+    .sec2{
+        width: 50%;
+    }
+    .sec2 h1 {
+        font-size: 60px;
+    }
+    .sec2 p{
+        font-size: 33px;
+    }
+    .button2, .button3{
+        padding: 17px 25px;
+       }
+    /* .........sec-2........... */
+ .Section-2
+{
+    height: 100%;
+}
+    .about-wrapper
+    {
+        padding-top: 60px;
+        padding-bottom: 50px;
+        display: flex;
+        
+        justify-content:center;
+
+    }
+    .fortab{
+        padding: 0px 20px 0px;
+    }
+    .marginn
+    {
+        width: 300px;
+        padding-left: 40px;
+        padding-top: 0px;
+    }
+    .marginn h1 
+    {
+        letter-spacing: 2px;
+        word-spacing: 2px; 
+    }
+    /* .......sec-2 end........ */
+    /* .......sec-3......... */    
+     .bg-5img
+     {
+        padding-right: 100px;
+     }
+     .dflex
+     {
+         display: flex;
+     }
+.margin-top
+{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-left: 0px;
+    width: 350px;
+}
+    .Section-3{
+    height: 700px;
+}
+    .about2-sec
+    {
+     display: flex; 
+    }
+    .bg-5img
+    {
+        margin-left: 100px;
+        padding-top: 50px;
+        height: 600px;
+        width: 600px;
+    }
+    .margin-left{
+       
+        padding-left: 60px;
+        width: 500px;
+        line-height: 30px;
+        margin-top: 20px; 
+    }
+    .marginn1
+    {
+        width: 340px;
+        padding-bottom: 50px;
+    }
+    .marginn2
+    {
+        padding-left: 0px;
+    }
+    /*........ sec-3 end...... */
+    /* ............sec-4....... */
+    .coffiepro-1, .coffiepro-2, .coffiepro-3
+    {
+    display: flex;
+    padding-left: 270px;
+    }
+    .coffee-pro
+    {
+        padding-right: 60px;
+    }
+    .imgsize
+    {
+        size: 500px;
+    }
+    .or-span
+    {
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+    .Section-4 h2
+{
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    line-height: 36px;
+    padding-top: 30px
+}
+    /* ..........sec-4 end........... */
+    /* .......sec-5......... */
+    .coffieofferheading
+    {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 40px;
+       padding-bottom: 40px;
+        letter-spacing: 2px;
+    }
+    .main-4 h2{
+        display: contents;
+    }
+    .Section-5
+    {
+        height: 900px;
+    }
+/* .........sec-5 end......... */
+    /* ......sec-6....... */
+    .sec6heading{
+        font-size: 70px;
+        letter-spacing: 1px;
+    }
+     .sec-6
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 800px;
+}
+.coffieresources
+   {
+    display: flex;
+    
+    padding-left: 100px;
+   }
+   .news-caption
+   {
+    width:350px;
+    height: 200px;
+   }
+   .img-1, .img-2, .img-3
+   {
+    width: 350px;
+    height: 200px;
+   } 
+   .news
+   {
+    width: 350px;
+   }
+   .fortab3{
+    padding: 0px 10px 0px;
+   }
+/* ......sec-6........... */
+   /*..... sect-7 .........*/
+.footerelements
+{
+    display: flex;
+    padding-top: 150px;
+  padding-left: 30px;
+  padding-bottom: 100px;
+  justify-content:space-evenly;
+  padding-right: 80px;
+} 
+   .Company,.Services, .Contact{
+    /* padding-right: 70px; */
+    justify-content: space-evenly;
+   }
+   .footerlinks
+   {
+    display: flex;
+    justify-content: center;
+   } 
+   .footerlinks a{
+    padding-top: 40px;
+    padding-bottom: 20px;
+   }
+   .sec-7{
+    height: 600px;
+   }
+/* .........se-7 end........ */
+}
+
